@@ -1,0 +1,13 @@
+{
+    "Name": "Cookie Valley",
+	"ID": "sns cookie valley",
+	"Author": "Charlatan of Doom",
+	"Description": "A lil' crossover mod for fans of Cookie Clicker & Stardew Valley, by a big fan of CC & SDV.",
+	"ModVersion": 1,
+	"GameVersion": 2.052,
+	"Date": "09/04/2023",
+	"Dependencies": [],
+    "LanguagePacks": ["lang.js"],
+	"Disabled": 1,
+    "AllowSteamAchievs": 1
+}
