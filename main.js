@@ -919,7 +919,8 @@ Game.registerMod("sns cookie valley",{
 			};
 
 			//Edit buff titles.
-			Game.buffTypesByName["blood frenzy"].func = function(time,pow)
+			//REMOVED for unfortunate bug with how the Eldeer (Cariboom) achievement is popped.
+			/*Game.buffTypesByName["blood frenzy"].func = function(time,pow)
 			{
 				return {
 					name:'Cash grab',
@@ -930,7 +931,7 @@ Game.registerMod("sns cookie valley",{
 					multCpS:pow,
 					aura:1
 				};
-			};
+			};*/
 
 			//Edit buff icons.
 			Game.buffTypesByName["frenzy"].func = function(time,pow)
